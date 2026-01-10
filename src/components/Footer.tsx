@@ -18,7 +18,7 @@ const Footer = () => {
           {/* Info */}
           <div className="text-center md:text-right">
             <p className="text-muted-foreground text-sm font-body">
-              Médica Hematologista • CRM XX-XXXXX
+              Médica Hematologista • CRM SC 22884 • RQE 18744
             </p>
             <p className="text-muted-foreground text-sm font-body">
               © 2026 Todos os direitos reservados

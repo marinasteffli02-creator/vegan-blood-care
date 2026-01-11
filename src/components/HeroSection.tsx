@@ -34,7 +34,7 @@ const HeroSection = () => {
         
         {/* Subheadline */}
         <p className="animate-fade-up-delay-2 font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-          Acompanhamento médico especializado para vegetarianos, com ciência e sem julgamentos.
+          Cuidado médico especializado para vegetarianos, com ciência e sem julgamentos.
         </p>
         
         {/* CTA Button */}

@@ -43,7 +43,12 @@ const FinalCTASection = () => {
           </p>
           
           {/* CTA Button */}
-          <Button variant="hero" size="xl" className="mb-6">
+          <Button 
+            variant="hero" 
+            size="xl" 
+            className="mb-6"
+            onClick={() => document.getElementById('agendar')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Agende sua consulta online
           </Button>
           

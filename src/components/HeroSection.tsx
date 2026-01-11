@@ -39,7 +39,11 @@ const HeroSection = () => {
         
         {/* CTA Button */}
         <div className="animate-fade-up-delay-3">
-          <Button variant="hero" size="xl">
+          <Button 
+            variant="hero" 
+            size="xl"
+            onClick={() => document.getElementById('agendar')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Agendar consulta online
           </Button>
         </div>

@@ -5,6 +5,7 @@ import DoctorSection from "@/components/DoctorSection";
 import ConsultationSection from "@/components/ConsultationSection";
 import AudienceSection from "@/components/AudienceSection";
 import FinalCTASection from "@/components/FinalCTASection";
+import DoctoraliaWidget from "@/components/DoctoraliaWidget";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -17,6 +18,7 @@ const Index = () => {
       <ConsultationSection />
       <AudienceSection />
       <FinalCTASection />
+      <DoctoraliaWidget />
       <Footer />
     </main>
   );
